@@ -182,7 +182,7 @@ class _BMICalculatorState extends State<BMICalculator> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text("Height in "),
+                        const Text("Height in "),
                         Radio(
                           value: 'cm',
                           groupValue: heightUnit,
